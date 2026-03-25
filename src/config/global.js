@@ -15,7 +15,7 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-3'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
@@ -42,8 +42,13 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Identificar el sistema presupuestal colombiano',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Reconocer los tipos de presupuesto',
+            hash: 't_1_2',
           },
         ],
       },
@@ -51,14 +56,76 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo:
+          'Planificar el presupuesto público conforme a los objetivos estratégicos institucionales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Utilizar herramientas y técnicas de proyección financiera en la aplicación del presupuesto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Aplicar el método para la formulación del presupuesto',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo:
+          'Asistir en la gestión del presupuesto de acuerdo con la normatividad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo:
+              'Ejecutar compromisos y pagos de la planeación presupuestal',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          'Apoyar en el control de la ejecución del presupuesto de los recursos públicos según la normatividad',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Implementar mecanismos de control en reportes financieros',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Identificar desviaciones presupuestales',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo:
+          'Proponer recomendaciones sobre el control del presupuesto, teniendo en cuenta los objetivos institucionales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Implementar mecanismos de control en reportes financieros',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo:
+              'Elaborar recomendaciones del presupuesto de acuerdo con los objetivos institucionales',
+            hash: 't_5_1',
+          },
+        ],
       },
     ],
     subMenu: [
