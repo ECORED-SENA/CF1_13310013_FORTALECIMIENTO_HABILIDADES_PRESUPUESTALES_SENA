@@ -116,7 +116,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
           span  Normativa colombiana relacionada con la gestión pública y presupuestal
-        .tabla-a.color-acento-botones
+        .tabla-a.color-acento-botones.mb-3
           table
             thead
               tr
@@ -230,14 +230,243 @@
                 td.text-center
                   a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1166", target="_blank")
                     img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
-
-
-
-
-
     //- InicioTabla
-
-
+    p.mb-5(data-aos="fade-left") Además de las leyes, el sistema presupuestal se desarrolla mediante decretos reglamentarios que regulan aspectos específicos relacionados con la ejecución presupuestal, el control del gasto público y la administración financiera del Estado.
+    //- InicioTabla
+    .row.justify-content-center
+      .col-md-12
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 2.
+          span  Decretos colombianos relacionados con la gestión presupuestal y financiera pública
+        .tabla-a.color-acento-botones.mb-3
+          table
+            thead
+              tr
+                th.text-center(style="width: 7%") Tipo
+                th.text-center(style="width: 10%") Número de norma
+                th.text-center(style="width: 8%") Año
+                th.text-center(style="width: 60%") Tema
+                th.text-center(style="width: 10%") Enlace
+            tbody
+              tr
+                td Decreto
+                td 617
+                td 2022
+                td Modifica el Decreto 1429 de 2016 sobre la participación de alcaldes en la junta directiva de la ADRES y establece disposiciones de control fiscal.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=188826", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 256
+                td 2022
+                td Modifica y adiciona el Decreto 1068 de 2015 en materia de financiación de obligaciones pensionales con recursos del Fonpet.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=179026", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 175
+                td 2022
+                td Modifica el Decreto 2555 de 2010 sobre el patrimonio técnico de sociedades fiduciarias y administradoras de fondos de pensiones.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=176986", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 53
+                td 2022
+                td Regula la emisión de bonos por parte de fondos de inversión colectiva y promueve el desarrollo del mercado de capitales.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=175666", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 169
+                td 2022
+                td Incorpora rendimientos financieros al presupuesto del Sistema General de Regalías del bienio 2021-2022.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=176766", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 147
+                td 2022
+                td Adiciona el Presupuesto General de la Nación para la vigencia fiscal de 2022.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=176626", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 506
+                td 2022
+                td Establece un ajuste al Presupuesto General de la Nación para la vigencia fiscal de 2022.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=185113", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 616
+                td 2022
+                td Modifica disposiciones del sistema de salud relacionadas con la contribución solidaria en el régimen subsidiado.
+                td.text-center
+                  a(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%20No.%20616%20de%202022.pdf", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 670
+                td 2022
+                td Reglamenta parcialmente el artículo 238 de la Ley 1819 de 2016 en materia tributaria.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=186266", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 371
+                td 2021
+                td Establece el Plan de Austeridad del Gasto para los órganos que hacen parte del Presupuesto General de la Nación.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=161366", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 412
+                td 2018
+                td Modifica el Decreto 1068 de 2015 en materia del régimen presupuestal y del Sistema Integrado de Información Financiera  SIIF Nación.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=85479", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 1068
+                td 2015
+                td Expide el Decreto Único Reglamentario del Sector Hacienda y Crédito Público.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=72893", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 3035
+                td 2013
+                td Reglamenta normas orgánicas del presupuesto.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56266", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 2785
+                td 2013
+                td Reglamenta disposiciones de la Ley 179 de 1994 y la Ley 225 de 1995.
+                td.text-center
+                  a(href="https://www.suin-juriscol.gov.co/viewDocument.asp?id=1776981", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 574
+                td 2012
+                td Crea la Comisión Intersectorial de Estadísticas de Finanzas Públicas.
+                td.text-center
+                  a(href="https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos%2F1122532", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 2768
+                td 2012
+                td Regula la constitución y funcionamiento de las cajas menores.
+                td.text-center
+                  a(href="https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos%2F1489002", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 1949
+                td 2012
+                td Reglamenta parcialmente la Ley 1530 de 2012 en materia presupuestal.
+                td.text-center
+                  a(href="https://www.suin-juriscol.gov.co/viewDocument.asp?id=1375288&", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 4836
+                td 2011
+                td Reglamenta normas orgánicas del presupuesto y modifica varios decretos relacionados con la gestión presupuestal.
+                td.text-center
+                  a(href="https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos%2F1552544", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 111
+                td 1996
+                td Compila la Ley 38 de 1989, la Ley 179 de 1994 y la Ley 225 de 1995 que conforman el Estatuto Orgánico del Presupuesto.
+                td.text-center
+                  a(href="https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos%2F1024830", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 115
+                td 1996
+                td Establece normas sobre la elaboración y ejecución de los presupuestos de empresas industriales y comerciales del Estado.
+                td.text-center
+                  a(href="https://www.suin-juriscol.gov.co/viewDocument.asp?id=1025788", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 663
+                td 1993
+                td Actualiza el Estatuto Orgánico del Sistema Financiero.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1348", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Decreto
+                td 410
+                td 1971
+                td Expide el Código de Comercio.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+    p(data-aos="fade-right") La normativa presupuestal también ha sido desarrollada mediante decisiones de la Corte Constitucional, las cuales han precisado el alcance de diversas disposiciones relacionadas con la gestión fiscal y el gasto público.
+    //- InicioTabla
+    .row.justify-content-center
+      .col-md-12
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 3.
+          span  Sentencias relacionadas con el control constitucional en materia fiscal y presupuestal
+        .tabla-a.color-acento-botones.mb-3
+          table
+            thead
+              tr
+                th.text-center(style="width: 7%") Tipo
+                th.text-center(style="width: 10%") Número de sentencia
+                th.text-center(style="width: 8%") Año
+                th.text-center(style="width: 60%") Tema
+                th.text-center(style="width: 10%") Enlace
+            tbody
+              tr
+                td Sentencia
+                td 320
+                td 2022
+                td Demanda de inconstitucionalidad contra el artículo 89 de la Ley 617 de 2000 relacionado con la racionalización del gasto público nacional.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6146", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+              tr
+                td Sentencia
+                td 195
+                td 1997
+                td Demanda de inconstitucionalidad contra el artículo 38 de la Ley 14 de 1983 sobre fortalecimiento de los fiscos territoriales.
+                td.text-center
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4188", target="_blank")
+                    img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
+    //- Imagen con titulo
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Ciclo presupuestal en el sector público: formulación, aprobación, ejecución y cierre
+    //- Fin Imagen con titulo
+    p(data-aos="fade-right") El <b>ciclo presupuestal en el sector público</b> constituye un proceso continuo mediante el cual el Estado planifica, asigna, utiliza y evalúa los recursos públicos. Su finalidad es asegurar que el presupuesto responda a las prioridades del desarrollo, a las necesidades sociales y a los principios de responsabilidad fiscal.
+    p(data-aos="fade-right") Este proceso se estructura en <b>cuatro fases interrelacionadas</b> que permiten ordenar la gestión de los recursos públicos desde su planeación inicial hasta la evaluación final de los resultados. Cada fase cumple una función específica dentro del sistema de administración financiera del Estado y aporta información clave para fortalecer la toma de decisiones y mejorar la eficiencia del gasto público. A continuación, se presentan las características principales de cada fase del ciclo presupuestal.       
     //- Fin Tema1
 
  
