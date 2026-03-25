@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Gestión integral del presupuesto público institucional',
+    Description:
+      'El presupuesto del SENA organiza y asegura los recursos que hacen posible su misión: formar talento, impulsar innovación y apoyar el empleo. Se financia, principalmente, con aportes parafiscales y asignaciones del Presupuesto General de la Nación, y se distribuye entre funcionamiento e inversión. Su ejecución exige planeación, registro de compromisos, control de pagos y seguimiento con indicadores, garantizando transparencia, eficiencia y alineación con metas institucionales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,7 +36,8 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo:
+          'Comprender el presupuesto público en Colombia de acuerdo con el marco normativo y legal',
         desarrolloContenidos: true,
         subMenu: [
           {
