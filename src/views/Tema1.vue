@@ -49,7 +49,7 @@
           .col-lg
             p(data-aos="fade-left") A partir de la <b>Ley 38 de 1989</b>, el presupuesto dejó de entenderse como un ejercicio aislado y pasó a integrarse dentro de un sistema más amplio en el que convergen diversos instrumentos de planeación financiera del Estado. Entre estos instrumentos se encuentran el <b>Plan Financiero</b>, el <b>Plan Operativo Anual de Inversiones</b> y el <b>Presupuesto anual</b>. Esta visión integradora permite armonizar el uso de los recursos con las metas del <b>Plan Nacional de Desarrollo</b>, asegurando coherencia y sostenibilidad fiscal.        
     p.mt-3(data-aos="fade-left") Los principales instrumentos que integran este sistema pueden sintetizarse de la siguiente manera:
-    //- Carrusel
+    //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5
               SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
@@ -74,7 +74,7 @@
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Presupuesto anual
                     p Autoriza los ingresos y gastos del Estado para cada vigencia fiscal y permite ejecutar las políticas públicas.
-    //- Fin Carrusel
+    //- Fin Slideshow
     p.mt-5(data-aos="fade-left") Asimismo, la Corte Constitucional ha destacado que el presupuesto opera como un mecanismo distributivo que, a diferencia del mercado, asigna los recursos de manera deliberada y consciente. Esta característica refuerza su carácter estratégico dentro de la acción estatal. Desde esta perspectiva, el sistema presupuestal cumple dos funciones centrales:
     .row.bg-color-8
       .col-12
@@ -103,12 +103,12 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Normatividad vigente del sistema presupuestal colombiano
     //- Fin Imagen con titulo
-    .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
-      .row.g-0.align-items-stretch.justify-content-center
-        .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema1/img4.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")        
-        .col-12.col-lg-7.bg-color-5.p-4.p-lg-5.pe-lg-0
-          p.p-4(data-aos="fade-left") El sistema presupuestal colombiano se sustenta en un conjunto de normas legales y reglamentarias que orientan la planeación, ejecución, control y seguimiento del gasto público. Entre las disposiciones más relevantes se encuentran la Ley 38 de 1989, la Ley 819 de 2003 y el Decreto 111 de 1996, normas que estructuran el Estatuto Orgánico del Presupuesto y establecen los principios de disciplina fiscal, planeación y responsabilidad en la administración de los recursos del Estado.
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-5
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema1/img4.png', alt='', style="object-fit: cover;")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 El sistema presupuestal colombiano se sustenta en un conjunto de normas legales y reglamentarias que orientan la planeación, ejecución, control y seguimiento del gasto público. Entre las disposiciones más relevantes se encuentran la Ley 38 de 1989, la Ley 819 de 2003 y el Decreto 111 de 1996, normas que estructuran el Estatuto Orgánico del Presupuesto y establecen los principios de disciplina fiscal, planeación y responsabilidad en la administración de los recursos del Estado.
     p.mb-5(data-aos="fade-left") A este marco se suman otras leyes y decretos que fortalecen la transparencia, el control del gasto, la planeación del desarrollo y la organización administrativa del sector público. A continuación, se presentan algunas de las principales normas que conforman este marco regulatorio.
     //- InicioTabla
     .row.justify-content-center
@@ -529,7 +529,7 @@
           img(src="@/assets/curso/tema1/img6.png", alt="").img400.m-auto
       .col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-          .row(titulo="Identificación del problema)")
+          .row(titulo="Identificación del problema")
               p.mb-4 Determinación de la necesidad pública que requiere intervención estatal.
           .row(titulo="Formulación del proyecto")
               p.mb-4 Definición de alternativas, indicadores y justificación técnica y económica del proyecto (DNP, 2018).
@@ -624,13 +624,13 @@
                 img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
                 h3.titulo-con-imagen__texto Principios y objetivos del presupuesto público
           //- Titulo nivel 2
-          .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
-            .row.g-0.align-items-stretch.justify-content-center
-              .col-lg-5.d-none.d-lg-flex
-                img.img-fluid(src='@/assets/curso/tema1/img8.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")        
-              .col-12.col-lg-7.bg-color-5.p-4.p-lg-5.pe-lg-0
-                p.p-4(data-aos="fade-left") El presupuesto público se fundamenta en un conjunto de principios que orientan la gestión financiera del Estado y garantizan orden, transparencia y eficiencia en el manejo de los recursos. Estos principios establecen criterios que guían la formulación, aprobación y ejecución del presupuesto, permitiendo que las decisiones fiscales se desarrollen con base en fundamentos técnicos y en responsabilidades institucionales.
-            p.mt-3(data-aos="fade-left") De acuerdo con González García (2021), estos principios fortalecen la coherencia del proceso presupuestal y evitan decisiones improvisadas en la asignación del gasto público. Asimismo, el DNP (2018) resalta que la disciplina fiscal, la previsión y el control constituyen elementos esenciales para asegurar una administración pública sostenible. A continuación, se sintetizan los principales principios del presupuesto público:
+          .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-5
+            .col-lg-5.d-flex
+              figure.mb-0.w-100
+                img.h-100.w-100(src='@/assets/curso/tema1/img8.png', alt='', style="object-fit: cover;")
+            .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+              p.mb-0 El presupuesto público se fundamenta en un conjunto de principios que orientan la gestión financiera del Estado y garantizan orden, transparencia y eficiencia en el manejo de los recursos. Estos principios establecen criterios que guían la formulación, aprobación y ejecución del presupuesto, permitiendo que las decisiones fiscales se desarrollen con base en fundamentos técnicos y en responsabilidades institucionales.
+          p.mt-3(data-aos="fade-left") De acuerdo con González García (2021), estos principios fortalecen la coherencia del proceso presupuestal y evitan decisiones improvisadas en la asignación del gasto público. Asimismo, el DNP (2018) resalta que la disciplina fiscal, la previsión y el control constituyen elementos esenciales para asegurar una administración pública sostenible. A continuación, se sintetizan los principales principios del presupuesto público:
     //- Inicio contenedor vertical
     container.tarjeta.p-4.p-md-5
           TabsA.color-acento-botones

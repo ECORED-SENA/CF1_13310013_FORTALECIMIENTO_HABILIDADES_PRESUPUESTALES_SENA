@@ -83,7 +83,8 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Presupuesto Orientado a Resultados (POR) y su implementación
     //- Titulo nivel 3
-    p(data-aos="fade-left") El Presupuesto Orientado a Resultados (POR) representa un enfoque de gestión pública que vincula la asignación de recursos con productos, efectos y beneficios sociales medibles. Este modelo busca que el presupuesto no se limite a la ejecución de cifras, sino que permita identificar cambios concretos en el bienestar de la población. Marcel, Guzmán y Saginés (2014) señalan que el POR requiere indicadores claros, líneas base y metas verificables, elementos que facilitan la evaluación del desempeño de los programas      .bloque-texto-g.bloque-texto-g.bg-color-2.p-3.p-sm-4.p-md-5.mb-3
+    p(data-aos="fade-left") El Presupuesto Orientado a Resultados (POR) representa un enfoque de gestión pública que vincula la asignación de recursos con productos, efectos y beneficios sociales medibles. Este modelo busca que el presupuesto no se limite a la ejecución de cifras, sino que permita identificar cambios concretos en el bienestar de la población. Marcel, Guzmán y Saginés (2014) señalan que el POR requiere indicadores claros, líneas base y metas verificables, elementos que facilitan la evaluación del desempeño de los programas      
+    .bloque-texto-g.bloque-texto-g.bg-color-2.p-3.p-sm-4.p-md-5.mb-3
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img5.png')})`}"
       )
@@ -148,12 +149,12 @@
         h3.titulo-nivel3 Traslados presupuestales
     //- Fin Titulo nivel 4
     p(data-aos="fade-left") Los <b>traslados presupuestales</b> permiten modificar la distribución interna de los recursos dentro de una entidad sin alterar el monto total del presupuesto aprobado. Este mecanismo se utiliza cuando surgen nuevas necesidades o cuando determinados proyectos requieren fortalecimiento para cumplir metas institucionales.
-    .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
-      .row.g-0.align-items-stretch.justify-content-center
-        .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/img7.png', alt='Checklist', style="object-position: left center;")        
-        .col-12.col-lg-7.bg-color-5.p-4.p-lg-5.pe-lg-0
-          p.p-2(data-aos="fade-left") La Ley 38 de 1989 establece que estos movimientos deben respetar el principio de especialización del gasto y contar con justificación técnica. La Contraloría General (2020) señala que una gestión oportuna de los traslados contribuye a evitar retrasos en la ejecución y mantiene la coherencia entre el presupuesto y la planeación institucional.
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-5
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/img7.png', alt='', style="object-fit: cover;")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 La Ley 38 de 1989 establece que estos movimientos deben respetar el principio de especialización del gasto y contar con justificación técnica. La Contraloría General (2020) señala que una gestión oportuna de los traslados contribuye a evitar retrasos en la ejecución y mantiene la coherencia entre el presupuesto y la planeación institucional.
     p(data-aos="fade-left") Su aplicación exige <b>análisis técnico, estudios de impacto y revisión de la disponibilidad de recursos.</b> Sierra (2019) destaca que este mecanismo introduce flexibilidad en la administración financiera, permitiendo optimizar el desempeño institucional bajo criterios de eficiencia y transparencia.
     //- Titulo nivel 4
     .bg-full-width.mt-4
@@ -162,12 +163,12 @@
         h3.titulo-nivel3 Vigencias futuras
     //- Fin Titulo nivel 4
     p(data-aos="fade-left") Las vigencias futuras permiten comprometer recursos de presupuestos de años posteriores para financiar proyectos cuya ejecución supera el periodo fiscal anual. Este instrumento se utiliza principalmente en obras de infraestructura o programas estratégicos que requieren continuidad en el tiempo.
-    .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
-      .row.g-0.align-items-stretch.justify-content-center
-        .col-12.col-lg-7.bg-color-12.p-4.p-lg-5.pe-lg-0
-          p.p-2(data-aos="fade-left") La Ley 819 de 2003 regula este mecanismo y establece que su aprobación debe ser consistente con el Marco Fiscal de Mediano Plazo. Asimismo, el Decreto 111 de 1996 determina criterios que garantizan que estos compromisos no superen la capacidad financiera del Estado.
-        .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/img8.png', alt='Checklist', style="object-position: left center;")        
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-12      
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 La Ley 819 de 2003 regula este mecanismo y establece que su aprobación debe ser consistente con el Marco Fiscal de Mediano Plazo. Asimismo, el Decreto 111 de 1996 determina criterios que garantizan que estos compromisos no superen la capacidad financiera del Estado.
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/img8.png', alt='', style="object-fit: cover;")
     p(data-aos="fade-right") El Ministerio de Hacienda (2019) señala que la aprobación de vigencias futuras requiere evaluar riesgos, cronogramas y sostenibilidad fiscal. Fedesarrollo (2021) advierte que una gestión inadecuada puede generar presiones financieras; sin embargo, cuando se utilizan correctamente, permiten garantizar continuidad en proyectos estratégicos y evitar interrupciones que incrementan los costos de inversión pública.
     //- Titulo nivel 4
     .bg-full-width.mt-4
@@ -175,13 +176,13 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")                     
         h3.titulo-nivel3 Adiciones presupuestales
     //- Fin Titulo nivel 4
-    p(data-aos="fade-left") Las adiciones presupuestales incrementan el monto del presupuesto aprobado cuando se identifican nuevas fuentes de financiamiento o cuando los ingresos superan las proyecciones iniciales.
-    .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
-      .row.g-0.align-items-stretch.justify-content-center
-        .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/img9.png', alt='Checklist', style="object-position: left center;")        
-        .col-12.col-lg-7.bg-color-5.p-4.p-lg-5.pe-lg-0
-          p(data-aos="fade-right") La Ley 2342 de 2023 contempla este mecanismo como parte del proceso presupuestal anual, siempre condicionado a la disponibilidad real de recursos y a la aprobación de las autoridades competentes. González García (2021) señala que estas adiciones permiten fortalecer programas prioritarios o atender necesidades emergentes sin comprometer la estabilidad fiscal.
+    p(data-aos="fade-left") Las adiciones presupuestales incrementan el monto del presupuesto aprobado cuando se identifican nuevas fuentes de financiamiento o cuando los ingresos superan las proyecciones iniciales.    
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-5
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/img9.png', alt='', style="object-fit: cover;")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 La Ley 2342 de 2023 contempla este mecanismo como parte del proceso presupuestal anual, siempre condicionado a la disponibilidad real de recursos y a la aprobación de las autoridades competentes. González García (2021) señala que estas adiciones permiten fortalecer programas prioritarios o atender necesidades emergentes sin comprometer la estabilidad fiscal.
     p(data-aos="fade-right") Su aplicación requiere un análisis riguroso del origen de los recursos y su relación con los objetivos institucionales. La Contraloría General (2020) enfatiza que cada adición debe acompañarse de controles que garanticen transparencia en la ejecución.
     //- Titulo nivel 4
     .bg-full-width.mt-4
@@ -190,25 +191,25 @@
         h3.titulo-nivel3 Incorporaciones presupuestales
     //- Fin Titulo nivel 4
     p(data-aos="fade-right") Las incorporaciones presupuestales consisten en incluir en el presupuesto recursos que no estaban contemplados inicialmente, como saldos no ejecutados, rendimientos financieros o transferencias adicionales. El Ministerio de Hacienda (2019) señala que este procedimiento debe asegurar que cada recurso incorporado se destine a rubros coherentes con la normatividad y con los fines institucionales. 
-    .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
-      .row.g-0.align-items-stretch.justify-content-center
-        .col-12.col-lg-7.bg-color-12.p-4.p-lg-5.pe-lg-0
-          p.p-2(data-aos="fade-left") Sierra (2019) indica que este mecanismo permite fortalecer la liquidez institucional y apoyar programas que requieren recursos adicionales. La Contraloría General (2020) destaca que toda incorporación debe contar con soportes documentales que identifiquen origen, cuantía y justificación técnica, garantizando transparencia en el uso de los recursos.
-        .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/img10.png', alt='Checklist', style="object-position: left center;")        
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-12      
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 Sierra (2019) indica que este mecanismo permite fortalecer la liquidez institucional y apoyar programas que requieren recursos adicionales. La Contraloría General (2020) destaca que toda incorporación debe contar con soportes documentales que identifiquen origen, cuantía y justificación técnica, garantizando transparencia en el uso de los recursos.
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/img10.png', alt='', style="object-fit: cover;")
     //- Titulo nivel 4
     .bg-full-width.mt-4
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")                     
         h3.titulo-nivel3 Créditos
     //- Fin Titulo nivel 4
-    p(data-aos="fade-right") El <b>crédito público</b> es un instrumento de financiamiento que permite a las entidades asumir obligaciones económicas destinadas a proyectos estratégicos o a la atención de necesidades urgentes.
-    .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
-      .row.g-0.align-items-stretch.justify-content-center
-        .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/img11.png', alt='Checklist', style="object-position: left center;")        
-        .col-12.col-lg-7.bg-color-5.p-4.p-lg-5.pe-lg-0
-          p(data-aos="fade-right") La Ley 38 de 1989 y la Ley 819 de 2003 regulan su uso, estableciendo requisitos y límites que aseguren la sostenibilidad fiscal. El Ministerio de Hacienda (2019) señala que las operaciones de crédito deben alinearse con el <b>Marco Fiscal de Mediano Plazo</b> y demostrar capacidad de pago.
+    p(data-aos="fade-right") El <b>crédito público</b> es un instrumento de financiamiento que permite a las entidades asumir obligaciones económicas destinadas a proyectos estratégicos o a la atención de necesidades urgentes.    
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-5
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/img11.png', alt='', style="object-fit: cover;")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 La Ley 38 de 1989 y la Ley 819 de 2003 regulan su uso, estableciendo requisitos y límites que aseguren la sostenibilidad fiscal. El Ministerio de Hacienda (2019) señala que las operaciones de crédito deben alinearse con el <b>Marco Fiscal de Mediano Plazo</b> y demostrar capacidad de pago.
     p(data-aos="fade-right") Una adecuada gestión del crédito puede acelerar proyectos de alto impacto y fortalecer la infraestructura pública. Sin embargo, la OCDE (2020) advierte que un endeudamiento sin planificación puede generar presiones fiscales futuras. Por esta razón, Sierra (2019) recomienda evaluar <b>riesgos, tasas, costos y condiciones de mercado</b> antes de asumir cualquier compromiso financiero.
     Separador
     //- Inicio Tema2
@@ -370,12 +371,12 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Herramientas de gestión presupuestal
     //- Titulo nivel 3
-    .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
-      .row.g-0.align-items-stretch.justify-content-center
-        .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/img15.png', alt='Checklist', style="object-position: left center;")        
-        .col-12.col-lg-7.bg-color-5.p-4.p-lg-5.pe-lg-0
-          p(data-aos="fade-right") La gestión presupuestal en el sector público se apoya en diversas herramientas tecnológicas y metodológicas que permiten planificar, ejecutar y controlar los recursos con mayor precisión. Estas herramientas facilitan la integración de información financiera y operativa, fortaleciendo la transparencia y el seguimiento de la ejecución presupuestal.
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-5
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/img15.png', alt='', style="object-fit: cover;")
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 La gestión presupuestal en el sector público se apoya en diversas herramientas tecnológicas y metodológicas que permiten planificar, ejecutar y controlar los recursos con mayor precisión. Estas herramientas facilitan la integración de información financiera y operativa, fortaleciendo la transparencia y el seguimiento de la ejecución presupuestal.
     p(data-aos="fade-left") Entre los sistemas más utilizados se encuentran <b>SIIF Nación, SUIFP, SECOP II y CHIP</b>, plataformas que permiten registrar operaciones financieras, realizar seguimiento a proyectos y garantizar trazabilidad en el manejo de los recursos públicos. El DNP (2018) indica que estos sistemas contribuyen a mejorar la coordinación institucional y a fortalecer la disciplina fiscal. A continuación, se sintetizan algunas herramientas utilizadas en la gestión presupuestal.
     //- Inicio Tarjetas
     .row.mt-5.justify-content-centerp(data-aos="fade-right")

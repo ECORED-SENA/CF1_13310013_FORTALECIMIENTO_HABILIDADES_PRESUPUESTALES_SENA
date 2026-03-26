@@ -18,13 +18,13 @@
     #t_3_1
     .titulo-segundo.color-acento-contenido
       h2 3.1 Ejecutar compromisos y pagos de la planeación presupuestal
-    p(data-aos="fade-left") La ejecución de compromisos y pagos representa la fase en la que las decisiones de la planeación presupuestal se concretan en operaciones financieras. Este proceso garantiza que los recursos aprobados en el presupuesto se utilicen para cumplir los objetivos institucionales, respetando los procedimientos establecidos por la normativa fiscal.    
-    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-5      
-      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
-        p.mb-0 Una adecuada ejecución presupuestal permite controlar el gasto, mantener la trazabilidad de las operaciones y asegurar el cumplimiento de las obligaciones financieras de la entidad. De esta manera, la gestión del presupuesto se mantiene alineada con los principios de legalidad, eficiencia y responsabilidad fiscal.
-      .col-lg-5.d-flex
-        figure.mb-0.w-100
-          img.h-100.w-100(src='@/assets/curso/tema3/img2.png', alt='', style="object-fit: cover;")
+    p(data-aos="fade-left") La ejecución de compromisos y pagos representa la fase en la que las decisiones de la planeación presupuestal se concretan en operaciones financieras. Este proceso garantiza que los recursos aprobados en el presupuesto se utilicen para cumplir los objetivos institucionales, respetando los procedimientos establecidos por la normativa fiscal.
+    .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
+      .row.g-0.align-items-stretch.justify-content-center        
+        .col-12.col-lg-7.bg-color-5.p-4.p-lg-5.pe-lg-0
+          p(data-aos="fade-right") Una adecuada ejecución presupuestal permite controlar el gasto, mantener la trazabilidad de las operaciones y asegurar el cumplimiento de las obligaciones financieras de la entidad. De esta manera, la gestión del presupuesto se mantiene alineada con los principios de legalidad, eficiencia y responsabilidad fiscal.
+        .col-lg-5.d-none.d-lg-flex
+          img.img-fluid(src='@/assets/curso/tema3/img2.png', alt='Checklist', style="object-position: left center;")
     //- Titulo nivel 3
     .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3
@@ -92,7 +92,7 @@
                   h5.mb-3.fw-bold Gestión de la información productiva en acuicultura
                   TarjetaAudio.color-primario(
                     texto="" 
-                    :audio="require('@/assets/componentes/audios/podcast1.mp3')"
+                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")        
