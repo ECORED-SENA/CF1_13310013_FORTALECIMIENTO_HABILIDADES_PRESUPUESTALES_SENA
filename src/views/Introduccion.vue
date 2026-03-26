@@ -23,7 +23,6 @@
           .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src="@/assets/curso/intro/img2.png", alt="", style="width: 300px").m-auto
-
     p(data-aos="fade-left") En las últimas unidades se profundiza en la ejecución, el control y la evaluación del presupuesto. Se analizan los procedimientos de compromisos y pagos, los mecanismos de seguimiento mediante indicadores clave, las auditorías, el control interno y externo, así como el uso de sistemas de información oficiales. Finalmente, se orienta al aprendiz en la elaboración de recomendaciones que articulen los planes institucionales con el presupuesto aprobado, mediante el diseño de indicadores financieros y la formulación de estrategias de mejora continua. De esta manera, el curso contribuye a la formación de servidores públicos capaces de tomar decisiones fundamentadas, alineadas con los principios de buen gobierno y sostenibilidad financiera.
 
 </template>

@@ -468,8 +468,256 @@
     p(data-aos="fade-right") El <b>ciclo presupuestal en el sector público</b> constituye un proceso continuo mediante el cual el Estado planifica, asigna, utiliza y evalúa los recursos públicos. Su finalidad es asegurar que el presupuesto responda a las prioridades del desarrollo, a las necesidades sociales y a los principios de responsabilidad fiscal.
     p(data-aos="fade-right") Este proceso se estructura en <b>cuatro fases interrelacionadas</b> que permiten ordenar la gestión de los recursos públicos desde su planeación inicial hasta la evaluación final de los resultados. Cada fase cumple una función específica dentro del sistema de administración financiera del Estado y aporta información clave para fortalecer la toma de decisiones y mejorar la eficiencia del gasto público. A continuación, se presentan las características principales de cada fase del ciclo presupuestal.       
     //- Fin Tema1
-
- 
+    //- Inicio Infografia
+    .row.justify-content-center
+      .col-lg-10
+        PasosA.color-acento-contenido(tipo="l")
+          .row
+            .col-lg
+              h3 Formulación
+              p Las entidades proyectan ingresos, definen metas y estructuran programas conforme a lineamientos nacionales establecidos por el DNP (2018).
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/info1.png', alt='').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/info2.png', alt='').img125
+            .col-lg
+              h3 Aprobación
+              p Se realiza una deliberación técnica y política para ajustar prioridades y validar la viabilidad fiscal del presupuesto.
+          .row
+            .col-lg
+              h3 Ejecución
+              p Se administran los recursos aprobados garantizando disciplina fiscal, cumplimiento normativo, eficiencia y transparencia en el gasto público (González García, 2021).
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/info3.png', alt='').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/info4.png', alt='').img125
+            .col-lg
+              h3 Cierre
+              p Se revisan compromisos, se registran obligaciones y se analizan resultados para fortalecer la planificación futura (Fedesarrollo, 2021).
+    //- Fin Infografia
+    //- Titulo nivel 2
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Gestión de proyectos de inversión pública
+    //- Titulo nivel 2
+    .row.mb-5
+      .col-xl-5.mb-4.mb-xl-0(data-aos="fade-right")
+        .row.h-100.bg-color-6.align-items-center.rounded-4
+          .col-12
+            .p-2.rounded.h-100
+              p.mb-0 La gestión de proyectos de inversión pública es un proceso que permite transformar necesidades colectivas en intervenciones concretas financiadas con recursos del Estado. Para lograrlo, se requiere una planeación rigurosa, mecanismos de análisis técnico y procesos de seguimiento que garanticen que las inversiones generen resultados efectivos para la sociedad.
+      .col-xl-3.mb-4.mb-xl-0.text-center(data-aos="left")
+        img(src="@/assets/curso/tema1/img5.png", alt="Asesora telefónica" style="width:350px").m-auto
+      .col-xl-4.align-self-end(data-aos="fade-right")
+        img.mb-3(src="@/assets/curso/tema1/green-icon.svg", alt="Icono comunicación" style="width:50px").d-none.d-xl-block
+        p.mb-0 En este contexto, el DNP (2018) resalta la importancia de una formulación adecuada del proyecto, mientras que Fedesarrollo (2021) destaca la necesidad de fortalecer las capacidades institucionales durante la ejecución. Asimismo, los mecanismos de control descritos por González García (2021) permiten asegurar que las inversiones públicas mantengan coherencia con los objetivos de desarrollo y con el uso responsable de los recursos.
+    p(data-aos="fade-right") A continuación se presentan los principales componentes que estructuran la gestión de proyectos de inversión pública:
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center
+      .col-lg-3 
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img6.png", alt="").img400.m-auto
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Identificación del problema)")
+              p.mb-4 Determinación de la necesidad pública que requiere intervención estatal.
+          .row(titulo="Formulación del proyecto")
+              p.mb-4 Definición de alternativas, indicadores y justificación técnica y económica del proyecto (DNP, 2018).
+          .row(titulo="Evaluación  <i>ex ante</i>")
+              p.mb-4 Análisis previo de la viabilidad social, técnica y financiera de la intervención.
+          .row(titulo="Ejecución")
+              p.mb-4 Implementación del proyecto mediante la administración de recursos y el desarrollo de las actividades previstas (Fedesarrollo, 2021).
+          .row(titulo="Seguimiento y control")
+              p.mb-4 Monitoreo de avances, identificación de riesgos y verificación del cumplimiento de resultados (González García, 2021).
+    //- Fin Accordion
+    p(data-aos="fade-right") De esta manera, cuando los proyectos se gestionan con disciplina, evidencia y sentido público, se convierten en instrumentos que contribuyen al desarrollo y al bienestar ciudadano.
+    Separador
+    //- Inicio Tema2
+    #t_1_2
+    .titulo-segundo.color-acento-contenido
+      h2 1.2	Reconocer los tipos de presupuesto
+    p(data-aos="fade-right") El presupuesto público puede clasificarse según la forma en que registra los ingresos, los gastos y las obligaciones del Estado. Esta tipología permite comprender cómo se administra la información financiera y cómo se controla el uso de los recursos públicos. Entre las clasificaciones más utilizadas se encuentran el <b>presupuesto de caja</b> y el <b>presupuesto de causación</b>, enfoques que responden a diferentes criterios de registro contable y de gestión fiscal.
+    //- Titulo nivel 3
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+        h3.titulo-nivel3 La entonación y su adecuación a la llamada
+    //- Fin Titulo nivel 3
+    //- Pestanas horizontales
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+        TabsC.color-acento-contenido.mt-1
+          .py-3.py-md-4(titulo="Evita confusiones")
+            .row
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/pestana01_1.png', alt='')
+              .col-md-6.mb-4.mb-md-0
+                h4 Presupuesto de caja
+                p Registra los ingresos y pagos únicamente cuando se producen los movimientos de dinero. Este enfoque se orienta al control de la liquidez disponible y permite hacer seguimiento al flujo efectivo de recursos públicos, lo que facilita el control inmediato del gasto y la estabilidad financiera del Estado (González García, 2021).
+          .py-3.py-md-4(titulo="Atención activa")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/pestana01_2.png', alt='')
+              .col-md-6
+                h4 Presupuesto de causación
+                p Reconoce las obligaciones en el momento en que se generan, independientemente del momento del pago. Este enfoque permite identificar con mayor precisión los compromisos fiscales y relacionar los programas públicos con su costo real, fortaleciendo la planeación financiera y la transparencia en la gestión estatal (DNP, 2018; Fedesarrollo, 2021).    
+    //- Cierres Pestanas horizontales
+    p(data-aos="fade-right") La comprensión de estas modalidades permite analizar la gestión presupuestal desde perspectivas complementarias: una centrada en el control de la liquidez inmediata y otra orientada al reconocimiento integral de las obligaciones financieras del Estado.
+    //- Titulo nivel 3
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-left")                     
+        h3.titulo-nivel3 Presupuesto General de la Nación y presupuestos descentralizados
+    //- Fin Titulo nivel 3
+    p(data-aos="fade-right") A continuación, se presenta un video sobre la organización de los instrumentos presupuestales en Colombia y su papel en la articulación de la gestión de los recursos públicos entre el nivel nacional y territorial.
+    figure.mb-5(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nHjl83QvSUw?si=PYOSxqLdAk88V5nb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    //- Titulo nivel 3
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+        h3.titulo-nivel3 Sistema General de Regalías (SGR) y Sistema General de Participaciones (SGP)
+    //- Fin Titulo nivel 3
+    p(data-aos="fade-left") Colombia cuenta con sistemas de financiación que permiten transferir recursos hacia las regiones y apoyar el desarrollo territorial. Entre los principales mecanismos se encuentran el <b>Sistema General de Regalías (SGR)</b> y el <b>Sistema General de Participaciones (SGP)</b>.
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img7.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El Sistema General de Regalías (SGR) administra los recursos provenientes de la explotación de recursos naturales no renovables. Estos recursos se destinan principalmente a financiar proyectos de inversión que impulsen el desarrollo regional. El DNP (2018) señala que el sistema exige procesos rigurosos de planeación y seguimiento para garantizar el impacto de los proyectos financiados.
+    p(data-aos="fade-left") El <b>Sistema General de Participaciones (SGP)</b> distribuye recursos desde la Nación hacia las entidades territoriales con el fin de financiar servicios públicos esenciales, especialmente en educación, salud, agua potable y saneamiento básico. González García (2021) explica que este sistema utiliza fórmulas de asignación orientadas a garantizar <b>equidad territorial y sostenibilidad fiscal</b>. A continuación, se presenta una síntesis de la función de cada sistema.
+    .row.bg-color-8
+      .col-12
+        .p-5
+          //- Inicio Tarjetas
+          .row.justify-content-center.mb-3(data-aos="fade-left")
+              .col-md-5.mb-4.mb-md-0
+                .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='', style="width: 100px;")
+                  h4 Sistema General de Regalías (SGR)
+                  p.mb-0 Financia proyectos de inversión regional con recursos provenientes de la explotación de recursos naturales.
+              .col-md-5
+                .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='', style="width: 100px;")
+                  h4 Sistema General de Participaciones (SGP)
+                  p.mb-0 Transfiere recursos a los territorios para financiar servicios públicos esenciales.
+          //- Fin Tarjetas    
+          //- Titulo nivel 2
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3
+            .titulo-con-imagen.mb-5(data-aos="fade-right")
+              .titulo-con-imagen__fondo
+                img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+                h3.titulo-con-imagen__texto Principios y objetivos del presupuesto público
+          //- Titulo nivel 2
+          .bg-color-fondo-resaltado.mb-3.br-20.overflow-hidden
+            .row.g-0.align-items-stretch.justify-content-center
+              .col-lg-5.d-none.d-lg-flex
+                img.img-fluid(src='@/assets/curso/tema1/img8.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")        
+              .col-12.col-lg-7.bg-color-5.p-4.p-lg-5.pe-lg-0
+                p.p-4(data-aos="fade-left") El presupuesto público se fundamenta en un conjunto de principios que orientan la gestión financiera del Estado y garantizan orden, transparencia y eficiencia en el manejo de los recursos. Estos principios establecen criterios que guían la formulación, aprobación y ejecución del presupuesto, permitiendo que las decisiones fiscales se desarrollen con base en fundamentos técnicos y en responsabilidades institucionales.
+            p.mt-3(data-aos="fade-left") De acuerdo con González García (2021), estos principios fortalecen la coherencia del proceso presupuestal y evitan decisiones improvisadas en la asignación del gasto público. Asimismo, el DNP (2018) resalta que la disciplina fiscal, la previsión y el control constituyen elementos esenciales para asegurar una administración pública sostenible. A continuación, se sintetizan los principales principios del presupuesto público:
+    //- Inicio contenedor vertical
+    container.tarjeta.p-4.p-md-5
+          TabsA.color-acento-botones
+            .tarjeta.p-5.bg-color-11(titulo="Anualidad")              
+              .row
+                .col-9
+                  h4 Anualidad
+                  p El presupuesto se formula y ejecuta para un periodo fiscal de un año, lo que permite planificar y evaluar la gestión financiera del Estado en ciclos definidos.
+                .col-3
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/pestana02_1.png')
+            .tarjeta.p-5.bg-color-11(titulo="Unidad")              
+              .row
+                .col-9
+                  h4 Unidad
+                  p Todos los ingresos y gastos del Estado se integran en un solo instrumento presupuestal, lo que facilita la coordinación y el control de las finanzas públicas.
+                .col-3
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/pestana02_2.png')              
+            .tarjeta.p-5.bg-color-11(titulo="Universalidad")              
+              .row
+                .col-9
+                  h4 Universalidad
+                  p El presupuesto incorpora la totalidad de los ingresos y gastos públicos, evitando registros parciales que afecten la transparencia fiscal.
+                .col-3
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/pestana02_3.png')              
+            .tarjeta.p-5.bg-color-11(titulo="Especialización")
+              .row
+                .col-9
+                  h4 Especialización
+                  p Los recursos se asignan a finalidades específicas previamente definidas, lo que permite garantizar coherencia entre las políticas públicas y el uso del gasto.
+                .col-3
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/pestana02_4.png')              
+            .tarjeta.p-5.bg-color-11(titulo="Claridad")
+              .row
+                .col-9
+                  h4 Claridad
+                  p La información presupuestal debe presentarse de forma comprensible y transparente para facilitar su control y evaluación.
+                .col-3
+                  figure.mb-4
+                    img.mx-auto(src='@/assets/curso/tema1/pestana02_5.png')              
+    //- Inicio contenedor vertical
+    p.mt-3(data-aos="fade-left") En relación con sus <b>objetivos</b>, el presupuesto público permite transformar los planes y políticas del Estado en acciones concretas mediante la asignación de recursos a programas y proyectos que responden a necesidades colectivas. <b>Fedesarrollo (2021)</b> señala que una gestión presupuestal adecuada contribuye a promover eficiencia, equidad y estabilidad macroeconómica. De igual manera, <b>González García (2021)</b> destaca que su propósito central consiste en orientar el gasto público hacia la generación de bienestar social y el fortalecimiento del desarrollo económico.
+    //- Titulo nivel 3
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Estructura de ingresos y gastos del SENA
+    //- Titulo nivel 3
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7(data-aos="fade-right")        
+        p(data-aos="fade-left") El <b>Servicio Nacional de Aprendizaje (SENA)</b> cuenta con una estructura financiera orientada a garantizar el desarrollo de sus procesos de formación profesional integral, innovación y apoyo al emprendimiento. Esta estructura se sustenta en diferentes fuentes de ingreso que permiten financiar programas educativos, proyectos institucionales y acciones orientadas al fortalecimiento del talento humano en el país.
+        p(data-aos="fade-left") Según el SENA (2024), estos recursos permiten sostener la oferta de formación técnica y tecnológica, promover la innovación productiva y apoyar iniciativas de emprendimiento que contribuyen al desarrollo económico y social. A continuación, se sintetizan las principales fuentes de ingreso que conforman la estructura financiera de la entidad:
+      .col-lg-5(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/tema1/img9.png', alt='')
+    //- Carrusel
+    .bg-full-width.bg-fondo-slider.mb-3
+            .p-4.p-md-5
+              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slyder02_1.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Plan financiero
+                    p Contribuciones obligatorias realizadas por los empleadores para financiar los programas de formación profesional integral que desarrolla el SENA.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slyder02_2.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Recursos del Presupuesto General de la Nación
+                    p Transferencias del Gobierno nacional destinadas a fortalecer la operación institucional, la ampliación de la cobertura educativa y el desarrollo de programas estratégicos.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slyder02_3.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Otras fuentes complementarias
+                    p Recursos adicionales orientados al apoyo de proyectos de formación, innovación, emprendimiento y fortalecimiento empresarial.
+    //- Fin Carrusel
+    p.mt-3(data-aos="fade-left") En relación con el gasto institucional, el SENA distribuye sus recursos principalmente entre funcionamiento e inversión, priorizando el fortalecimiento de la infraestructura educativa, la actualización tecnológica, la operación académica y los programas de apoyo al emprendimiento. González García (2021) explica que la ejecución de estos recursos requiere mecanismos permanentes de control y seguimiento para garantizar el uso adecuado del dinero público. Asimismo, el DNP (2018) destaca que la planeación basada en proyectos contribuye a fortalecer la gestión institucional, ya que permite orientar las inversiones hacia necesidades productivas y sociales del país.
 </template>
 
 <script>
