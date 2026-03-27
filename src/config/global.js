@@ -175,21 +175,164 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
+      tema: 'Presupuesto público',
+      referencia: 'SENA. (2024). Presupuesto General SENA – Transparencia.',
       tipo: 'Sitio web',
-      link: '',
+      link:
+        'https://www.sena.edu.co/es-co/transparencia/Paginas/presupuesto-general.aspx ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Compromiso',
+      significado:
+        'Actos realizados por los órganos que, al contratar y obligar el presupuesto, desarrollan el objeto de la apropiación presupuestal.',
+    },
+    {
+      termino: 'Fondos públicos',
+      significado:
+        'Recursos financieros tributarios y no tributarios generados por la producción o prestación de bienes y servicios de entidades públicas.',
+    },
+    {
+      termino: 'Gastos generales',
+      significado:
+        'Gastos relacionados con la adquisición de bienes y servicios necesarios para cumplir funciones legales, incluyendo impuestos y multas.',
+    },
+    {
+      termino: 'Hacienda nacional',
+      significado:
+        'Representa el patrimonio del Estado en entidades no empresariales del sector público.',
+    },
+    {
+      termino: 'Ingresos públicos',
+      significado:
+        'Valores monetarios recibidos o causados por ingresos corrientes, venta de bienes y servicios, transferencias y otros.',
+    },
+    {
+      termino: 'Planeación',
+      significado:
+        'Selección de misiones, objetivos, estrategias, políticas, programas y procedimientos para alcanzarlos.',
+    },
+    {
+      termino: 'Presupuesto general de la nación',
+      significado:
+        'Documento oficial que define el gasto del gobierno por vigencia fiscal y la forma de obtener los recursos necesarios.',
+    },
+    {
+      termino: 'Presupuestos del sector público',
+      significado:
+        'Conjunto de presupuestos aprobados por el Congreso, gobiernos regionales y locales, empresas públicas y organismos descentralizados.',
+    },
+    {
+      termino: 'Programación del ingreso y del gasto',
+      significado:
+        'Proceso técnico que determina el comportamiento probable de la ejecución mensual y trimestral de ingresos y gastos.',
+    },
+    {
+      termino: 'Programación presupuestaria en las entidades',
+      significado:
+        'Fase en la que las entidades definen prioridades, demanda global de gasto, metas presupuestarias y estructura de financiamiento.',
+    },
+    {
+      termino: 'Recursos',
+      significado: 'Grupo de ingresos que financia el gasto autorizado.',
+    },
+    {
+      termino: 'Reserva presupuestal',
+      significado:
+        'Compromisos pendientes de pago para la vigencia siguiente identificados en el SIIF.',
+    },
+    {
+      termino: 'Rezago presupuestal',
+      significado:
+        'Suma de reservas presupuestales y cuentas por pagar pendientes para la siguiente vigencia fiscal.',
+    },
+    {
+      termino: 'Rubro',
+      significado:
+        'Título que designa un grupo de partidas o cuentas contables.',
+    },
+    {
+      termino: 'Transacción',
+      significado:
+        'Operación sustentada que genera un registro contable y afecta cuentas de distinta naturaleza.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Congreso de la República de Colombia. (2023). Ley 2342 de 2023. Por la cual se decreta el Presupuesto General de la Nación para la vigencia fiscal 2024. Diario Oficial No. 52.418.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2023). Ley 2294 de 2023. Por la cual se expide el Plan Nacional de Desarrollo 2022-2026: Colombia, potencia mundial de la vida. Diario Oficial No. 52.272.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (1989). Ley 38 de 1989. Por la cual se expiden normas sobre el presupuesto general de la Nación. Diario Oficial No. 38.639.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2003). Ley 819 de 2003. Por la cual se dictan normas orgánicas en materia de presupuesto, responsabilidad y transparencia fiscal. Diario Oficial No. 45.231.',
+      link: '',
+    },
+    {
+      referencia:
+        'Contraloría General de la República. (2020). Guía para la ejecución presupuestal en entidades públicas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación. (2018). Manual para la planificación y seguimiento de proyectos de inversión pública.',
+      link: '',
+    },
+    {
+      referencia:
+        'Fedesarrollo. (2021). Eficiencia en la ejecución presupuestal en Colombia: retos y oportunidades.',
+      link: '',
+    },
+    {
+      referencia:
+        'González García, F. (2021). Control y ejecución del presupuesto público. Ediciones U.',
+      link: '',
+    },
+    {
+      referencia:
+        'Marcel, M., Guzmán, M., y Saginés, M. (2014). Presupuestos para el desarrollo en América Latina. Banco Interamericano de Desarrollo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Hacienda y Crédito Público. (2019). Aspectos generales del proceso presupuestal colombiano (4.ª ed. rev.). Dirección General del Presupuesto Público Nacional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización para la Cooperación y el Desarrollo Económicos. (2020). Revisión de la gestión financiera pública en Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1996). Decreto 111 de 1996.',
+      link: '',
+    },
+    {
+      referencia:
+        'Restrepo, L. (2017). Planeación estratégica y gestión del presupuesto en el sector público. ECOE Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje. (2024). Presupuesto general SENA – transparencia.',
+      link:
+        'https://www.sena.edu.co/es-co/transparencia/Paginas/presupuesto-general.aspx',
+    },
+    {
+      referencia:
+        'Sierra, A. (2019). Gestión financiera pública en Colombia: conceptos y aplicaciones. Universidad Nacional de Colombia.',
       link: '',
     },
   ],

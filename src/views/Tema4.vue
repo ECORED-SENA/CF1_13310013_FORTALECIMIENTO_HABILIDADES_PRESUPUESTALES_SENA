@@ -190,7 +190,7 @@
               .carousel-bg
                 .row.justify-content-center.mb-5.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
-                    SlyderF(columnas="col-xl-4 col-lg-6")
+                    SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-color-10.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column
                         img(src='@/assets/curso/tema4/tarjeta01_1.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                         h4.mb-3.card-title.text-center Retrasos contractuales
