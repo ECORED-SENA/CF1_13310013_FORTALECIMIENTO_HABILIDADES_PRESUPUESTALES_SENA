@@ -75,7 +75,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Gestión de compromisos y obligaciones
+          h3.titulo-con-imagen__texto Control de pagos y desembolsos
     //- Titulo nivel 3
     p(data-aos="fade-left") A continuación, se presenta un pódcast que explica el control de pagos y desembolsos como un proceso fundamental para garantizar la adecuada gestión y utilización de los recursos públicos.
     //- Inicio Podcast
@@ -89,7 +89,7 @@
               .col-md-7.ps-md-4
                 h2.mb-3.fw-bold(style="color:#000") Pódcast
                 .tarjeta.bg-white.p-3.shadow-sm.border-lemon
-                  h5.mb-3.fw-bold Gestión de la información productiva en acuicultura
+                  h5.mb-3.fw-bold Control de pagos y desembolsos
                   TarjetaAudio.color-primario(
                     texto="" 
                     :audio="require('@/assets/componentes/audios/podcast1.mp3')"

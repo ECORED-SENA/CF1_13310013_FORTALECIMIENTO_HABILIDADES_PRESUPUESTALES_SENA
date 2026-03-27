@@ -424,7 +424,7 @@
                 td.text-center
                   a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102", target="_blank")
                     img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
-    p(data-aos="fade-right") La normativa presupuestal también ha sido desarrollada mediante decisiones de la Corte Constitucional, las cuales han precisado el alcance de diversas disposiciones relacionadas con la gestión fiscal y el gasto público.
+    p.mb-5(data-aos="fade-right") La normativa presupuestal también ha sido desarrollada mediante decisiones de la Corte Constitucional, las cuales han precisado el alcance de diversas disposiciones relacionadas con la gestión fiscal y el gasto público.
     //- InicioTabla
     .row.justify-content-center
       .col-md-12
@@ -548,15 +548,25 @@
       h2 1.2	Reconocer los tipos de presupuesto
     p(data-aos="fade-right") El presupuesto público puede clasificarse según la forma en que registra los ingresos, los gastos y las obligaciones del Estado. Esta tipología permite comprender cómo se administra la información financiera y cómo se controla el uso de los recursos públicos. Entre las clasificaciones más utilizadas se encuentran el <b>presupuesto de caja</b> y el <b>presupuesto de causación</b>, enfoques que responden a diferentes criterios de registro contable y de gestión fiscal.
     //- Titulo nivel 3
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Estructura y tipología del presupuesto 
+    //- Fin Titulo nivel 3
+    p(data-aos="fade-right") La estructura del presupuesto incorpora distintos enfoques metodológicos que permiten registrar y analizar los recursos públicos. Dentro de estas modalidades, el presupuesto de caja y el presupuesto de causación representan dos formas complementarias de comprender la gestión financiera del Estado.
+    //- Titulo nivel 4
     .bg-full-width.mt-4
       .px-4.px-md-5.pb-md-3
-      .titulo-con-imagen.mb-5(data-aos="fade-right")                     
-        h3.titulo-nivel3 La entonación y su adecuación a la llamada
-    //- Fin Titulo nivel 3
+      .titulo-con-imagen.mb-5(data-aos="fade-left")                     
+        h3.titulo-nivel3 Presupuesto de caja y presupuesto de causación
+    //- Fin Titulo nivel 4
+    p(data-aos="fade-right") En la gestión financiera del sector público existen distintos enfoques contables que permiten registrar y analizar el uso de los recursos del Estado. Entre los más relevantes se encuentran el <b>presupuesto de caja</b> y el <b>presupuesto de causación</b>, modalidades que responden a criterios diferentes para reconocer ingresos, gastos y compromisos fiscales. La comprensión de estas perspectivas facilita interpretar cómo el Estado administra sus recursos y planifica sus obligaciones financieras. A continuación, se presentan las principales características de estas dos modalidades presupuestales:
     //- Pestanas horizontales
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
         TabsC.color-acento-contenido.mt-1
-          .py-3.py-md-4(titulo="Evita confusiones")
+          .py-3.py-md-4(titulo="Presupuesto de caja")
             .row
               .col-md-6
                 figure
@@ -564,7 +574,7 @@
               .col-md-6.mb-4.mb-md-0
                 h4 Presupuesto de caja
                 p Registra los ingresos y pagos únicamente cuando se producen los movimientos de dinero. Este enfoque se orienta al control de la liquidez disponible y permite hacer seguimiento al flujo efectivo de recursos públicos, lo que facilita el control inmediato del gasto y la estabilidad financiera del Estado (González García, 2021).
-          .py-3.py-md-4(titulo="Atención activa")
+          .py-3.py-md-4(titulo="Presupuesto de causación")
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
@@ -700,7 +710,7 @@
                     figure
                       img(src="@/assets/curso/tema1/slyder02_1.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Plan financiero
+                    h4 Aportes parafiscales
                     p Contribuciones obligatorias realizadas por los empleadores para financiar los programas de formación profesional integral que desarrolla el SENA.
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
