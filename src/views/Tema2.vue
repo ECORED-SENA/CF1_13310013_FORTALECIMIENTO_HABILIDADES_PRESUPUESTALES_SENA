@@ -83,7 +83,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Presupuesto Orientado a Resultados (POR) y su implementación
     //- Titulo nivel 3
-    p(data-aos="fade-left") El Presupuesto Orientado a Resultados (POR) representa un enfoque de gestión pública que vincula la asignación de recursos con productos, efectos y beneficios sociales medibles. Este modelo busca que el presupuesto no se limite a la ejecución de cifras, sino que permita identificar cambios concretos en el bienestar de la población. Marcel, Guzmán y Saginés (2014) señalan que el POR requiere indicadores claros, líneas base y metas verificables, elementos que facilitan la evaluación del desempeño de los programas      
+    p(data-aos="fade-left") El Presupuesto Orientado a Resultados (POR) representa un enfoque de gestión pública que vincula la asignación de recursos con productos, efectos y beneficios sociales medibles. Este modelo busca que el presupuesto no se limite a la ejecución de cifras, sino que permita identificar cambios concretos en el bienestar de la población. Marcel, Guzmán y Saginés (2014) señalan que el POR requiere indicadores claros, líneas base y metas verificables, elementos que facilitan la evaluación del desempeño de los programas públicos.
     .bloque-texto-g.bloque-texto-g.bg-color-2.p-3.p-sm-4.p-md-5.mb-3
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img5.png')})`}"
@@ -283,7 +283,7 @@
               img(src="@/assets/curso/tema1/img5.png", alt="Asesora telefónica" style="width:350px").m-auto
             .col-xl-4.align-self-end(data-aos="fade-right")
               img.mb-3(src="@/assets/curso/tema2/icono.svg", alt="Icono comunicación" style="width:50px").d-none.d-xl-block
-              p.mb-0 A partir de este análisis se realiza la priorización de recursos, que consiste en organizar las necesidades identificadas de acuerdo con criterios de impacto, urgencia y disponibilidad financiera. Marcel, Guzmán y Saginés (2014) explican que priorizar implica tomar decisiones responsables para asegurar que los recursos públicos se orienten hacia iniciativas que generen mayor valor público y contribuyan al cumplimiento de los objetivos institucionales.
+              p.mb-0 A partir de este análisis se realiza la <b>priorización de recursos</b>, que consiste en organizar las necesidades identificadas de acuerdo con criterios de impacto, urgencia y disponibilidad financiera. Marcel, Guzmán y Saginés (2014) explican que priorizar implica tomar decisiones responsables para asegurar que los recursos públicos se orienten hacia iniciativas que generen mayor valor público y contribuyan al cumplimiento de los objetivos institucionales.
     //- Inicio Tarjetas
     .row(data-aos="fade-right")
       .col-sm-6.col-lg.mb-4.d-flex.flex-column

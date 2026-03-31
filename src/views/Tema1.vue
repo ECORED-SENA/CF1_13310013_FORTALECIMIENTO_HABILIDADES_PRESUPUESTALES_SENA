@@ -108,7 +108,7 @@
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema1/img4.png', alt='', style="object-fit: cover;")
       .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
-        p.mb-0 El sistema presupuestal colombiano se sustenta en un conjunto de normas legales y reglamentarias que orientan la planeación, ejecución, control y seguimiento del gasto público. Entre las disposiciones más relevantes se encuentran la Ley 38 de 1989, la Ley 819 de 2003 y el Decreto 111 de 1996, normas que estructuran el Estatuto Orgánico del Presupuesto y establecen los principios de disciplina fiscal, planeación y responsabilidad en la administración de los recursos del Estado.
+        p.mb-0 El sistema presupuestal colombiano se sustenta en un conjunto de normas legales y reglamentarias que orientan la planeación, ejecución, control y seguimiento del gasto público. Entre las disposiciones más relevantes se encuentran la <b>Ley 38 de 1989</b>, la <b>Ley 819 de 2003</b> y el <b>Decreto 111 de 1996</b>, normas que estructuran el <b>Estatuto Orgánico del Presupuesto</b> y establecen los principios de disciplina fiscal, planeación y responsabilidad en la administración de los recursos del Estado.
     p.mb-5(data-aos="fade-left") A este marco se suman otras leyes y decretos que fortalecen la transparencia, el control del gasto, la planeación del desarrollo y la organización administrativa del sector público. A continuación, se presentan algunas de las principales normas que conforman este marco regulatorio.
     //- InicioTabla
     .row.justify-content-center
@@ -424,7 +424,7 @@
                 td.text-center
                   a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102", target="_blank")
                     img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
-    p.mb-5(data-aos="fade-right") La normativa presupuestal también ha sido desarrollada mediante decisiones de la Corte Constitucional, las cuales han precisado el alcance de diversas disposiciones relacionadas con la gestión fiscal y el gasto público.
+    p.mb-5(data-aos="fade-right") La normativa presupuestal también ha sido desarrollada mediante decisiones de la <b>Corte Constitucional</b>, las cuales han precisado el alcance de diversas disposiciones relacionadas con la gestión fiscal y el gasto público.
     //- InicioTabla
     .row.justify-content-center
       .col-md-12
@@ -483,7 +483,7 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/info2.png', alt='').img125
-            .col-lg
+            .col-lg.text-start
               h3 Aprobación
               p Se realiza una deliberación técnica y política para ajustar prioridades y validar la viabilidad fiscal del presupuesto.
           .row
@@ -497,7 +497,7 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/info4.png', alt='').img125
-            .col-lg
+            .col-lg.text-start
               h3 Cierre
               p Se revisan compromisos, se registran obligaciones y se analizan resultados para fortalecer la planificación futura (Fedesarrollo, 2021).
     //- Fin Infografia
@@ -593,7 +593,7 @@
     p(data-aos="fade-right") A continuación, se presenta un video sobre la organización de los instrumentos presupuestales en Colombia y su papel en la articulación de la gestión de los recursos públicos entre el nivel nacional y territorial.
     figure.mb-5(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/nHjl83QvSUw?si=PYOSxqLdAk88V5nb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/w_48bOak_zk?si=efyQp5PG2m1y1cS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     //- Titulo nivel 3
     .bg-full-width.mt-4
       .px-4.px-md-5.pb-md-3

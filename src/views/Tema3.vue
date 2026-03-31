@@ -39,8 +39,8 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 González García (2021) explica que este proceso incluye la revisión de saldos disponibles, la validación de contratos y el registro de compromisos presupuestales, asegurando que cada gasto cumpla con los principios de especialización, legalidad y eficiencia. De esta forma, la entidad mantiene coherencia entre la planeación y la ejecución del presupuesto, reduciendo riesgos administrativos y fortaleciendo la disciplina fiscal.    
-    p(data-aos="fade-left") Posteriormente, la obligación presupuestal formaliza el reconocimiento de la deuda derivada de la ejecución del gasto, vinculando el compromiso con un proveedor o beneficiario específico. La Contraloría General (2020) señala que este procedimiento requiere verificar el cumplimiento de las condiciones contractuales, la recepción de los bienes o servicios y la existencia de los documentos de soporte correspondientes.
+        p.mb-0 González García (2021) explica que este proceso incluye la revisión de saldos disponibles, la validación de contratos y el registro de compromisos presupuestales, asegurando que cada gasto cumpla con los principios de <b>especialización, legalidad y eficiencia</b>. De esta forma, la entidad mantiene coherencia entre la planeación y la ejecución del presupuesto, reduciendo riesgos administrativos y fortaleciendo la disciplina fiscal.    
+    p(data-aos="fade-left") Posteriormente, la <b>obligación presupuestal</b> formaliza el reconocimiento de la deuda derivada de la ejecución del gasto, vinculando el compromiso con un proveedor o beneficiario específico. La Contraloría General (2020) señala que este procedimiento requiere verificar el cumplimiento de las condiciones contractuales, la recepción de los bienes o servicios y la existencia de los documentos de soporte correspondientes.
     //- Inicio Tarjetas
     .row(data-aos="fade-right")
       .col-sm-6.col-lg.mb-4.d-flex.flex-column

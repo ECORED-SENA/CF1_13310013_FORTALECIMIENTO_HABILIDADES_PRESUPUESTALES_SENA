@@ -354,7 +354,7 @@
                   p.card-text.text-center
                   | Integrar datos financieros para facilitar análisis y seguimiento.
                 .bg-color-10.tarjeta.p-4.h-100.shadow-app.text-center.bordes.d-flex.flex-column
-                  img(src='@/assets/curso/tema5/tarjeta06_4.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema5/tarjeta06_5.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.mb-3.card-title.text-center Estudios de impacto fiscal
                   p.card-text.text-center
                   | Analizar las consecuencias financieras de políticas o proyectos.
