@@ -188,7 +188,7 @@
                 td 1999
                 td Por la cual se establece un régimen que promueve la reactivación empresarial y la reestructuración de los entes territoriales.
                 td.text-center
-                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=190", target="_blank")
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6164", target="_blank")
                     img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
               tr
                 td Ley
@@ -196,7 +196,7 @@
                 td 1998
                 td Por medio de la cual se adoptan medidas relacionadas con el manejo de obligaciones contingentes de las entidades estatales.
                 td.text-center
-                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=182", target="_blank")
+                  a(href="https://www.ani.gov.co/sites/default/files/ley_448_de_1998.pdf", target="_blank")
                     img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
               tr
                 td Ley
@@ -254,7 +254,7 @@
                 td 2022
                 td Modifica el Decreto 1429 de 2016 sobre la participación de alcaldes en la junta directiva de la ADRES y establece disposiciones de control fiscal.
                 td.text-center
-                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=188826", target="_blank")
+                  a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=185806", target="_blank")
                     img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
               tr
                 td Decreto
@@ -310,7 +310,7 @@
                 td 2022
                 td Modifica disposiciones del sistema de salud relacionadas con la contribución solidaria en el régimen subsidiado.
                 td.text-center
-                  a(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%20No.%20616%20de%202022.pdf", target="_blank")
+                  a(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=122741", target="_blank")
                     img.mx-auto(src="@/assets/curso/tema1/adjunto-icono.svg", style="width: 30px; display: block;")
               tr
                 td Decreto

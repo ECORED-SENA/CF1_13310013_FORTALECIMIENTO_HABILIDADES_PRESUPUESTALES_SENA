@@ -358,7 +358,7 @@ export default {
         {
           nombre: 'Elizabeth Peña Sierra',
           cargo: 'Experto temático',
-          centro: 'Centro De Servicios Financieros / Regional Distrito Capital',
+          centro: 'Centro De Servicios Financieros - Regional Distrito Capital',
         },
         {
           nombre: 'Paola Alexandra Moya',
@@ -379,7 +379,7 @@ export default {
         },
         {
           nombre: 'Henry Alvarez Astudillo',
-          cargo: 'Desarrollador fullstack',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
