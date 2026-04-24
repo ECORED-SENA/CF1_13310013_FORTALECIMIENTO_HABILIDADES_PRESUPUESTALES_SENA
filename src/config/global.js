@@ -342,8 +342,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Líder del Ecosistema',
-          centro:
-            'Líder del Ecosistema Centro Agroturístico - Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Olga Constanza Bermúdez',
